@@ -67,7 +67,7 @@ public class Client {
         return data;
     }
     
-    public static void main(){
+    public static void main(String[] args){
         Client c = new Client();
         c.connexion();
         try {
@@ -76,5 +76,4 @@ public class Client {
             Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
 }
